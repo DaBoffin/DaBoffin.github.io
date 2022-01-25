@@ -1,2 +1,3 @@
 # DaBoffin.github.io
-# All right reserved. ALL PHOTOS ARE PRIVATE AND NOT AVAIBLE ON DOWNLOAD
+# ©2022 - DaBoffin - All right reserved.
+ALL PHOTOS ARE PRIVATE AND NOT AVAIBLE FOR DOWNLOAD

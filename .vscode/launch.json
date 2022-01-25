@@ -8,7 +8,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome against localhost",
-            "url": "C:/Program Files/Google/Chrome/Application/chrome.exe",
+            "url": "C:/Users/DaBoffin/Documents/GitHub/DaBoffin.github.io/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

@@ -309,7 +309,6 @@ body {
     width: 100%;
     height: auto;
 }
-
 .overlay1 {
     position: absolute;
     top: 0;
@@ -337,7 +336,36 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+
+/*LANDSCAPE CSS*/
+.overlay2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .6s ease;
+}
+.container1:hover .overlay2 {
+    opacity: 1;
+}
+.text_bott_center{
+    color: white;
+    font-size: 3vw;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
 .img_thumb {
     border: 4vw solid rgb(255, 255, 255);
     border-radius: 3px;
   }
+/*LANDSCAPE ANIMATION*/

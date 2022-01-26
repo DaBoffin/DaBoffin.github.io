@@ -328,7 +328,7 @@ body {
 
 .text1 {
     color: white;
-    font-size: 20px;
+    font-size: 30px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -337,3 +337,7 @@ body {
     transform: translate(-50%, -50%);
     text-align: center;
 }
+.img_thumb {
+    border: 4vw solid rgb(255, 255, 255);
+    border-radius: 3px;
+  }

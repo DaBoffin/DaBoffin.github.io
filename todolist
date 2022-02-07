@@ -7,4 +7,18 @@
     -playlist musique commune
     -slider de naviguation pour les pages photos.
     -page ABOUT US + page DON
-    -ajouter image de tonton (msg whataspp) dans portrait/street.
+    -ajouter image de tonton (msg whataspp) dans portrait/street.    
+
+
+----------------------------------------------------
+Automatiser le post de photo avec python :
+ -choisis le chemin d'une image, exporte le nom en variable
+ --> print menu de choix :
+      1- Format : Portrait/paysage
+      2- Sur quelle page l'ajouter (catégorie portfolio)
+      3- TITRE + description
+ --> modifie le fichier selectionné :
+      - publie la photo avec les params .
+      - en dessous de " <div class="row justify-content-center text-center p-5"> " (fingerprint)
+      - lance le site (open chrome.exe root/index.html)
+----------------------------------------------------

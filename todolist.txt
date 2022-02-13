@@ -8,4 +8,4 @@
     -slider de naviguation pour les pages photos.
     -page ABOUT US + page DON
     -ajouter image de tonton (msg whataspp) dans portrait/street.    
-
+    -PAGE TARIFS Photos.

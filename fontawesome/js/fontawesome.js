@@ -256,7 +256,7 @@
   var DOCUMENT = _DOCUMENT;
   var MUTATION_OBSERVER = _MUTATION_OBSERVER;
   var PERFORMANCE = _PERFORMANCE;
-  var IS_BROWSER = !!WINDOW.document;
+  var IS_BrowSER = !!WINDOW.document;
   var IS_DOM = !!DOCUMENT.documentElement && !!DOCUMENT.head && typeof DOCUMENT.addEventListener === 'function' && typeof DOCUMENT.createElement === 'function';
   var IS_IE = ~userAgent.indexOf('MSIE') || ~userAgent.indexOf('Trident/');
 
@@ -1286,7 +1286,7 @@
   };
 
   function bootstrap(plugins) {
-    if (IS_BROWSER) {
+    if (IS_BrowSER) {
       if (!WINDOW.FontAwesome) {
         WINDOW.FontAwesome = api;
       }

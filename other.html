@@ -14,6 +14,11 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
     <link rel="icon" type="image/png" href="IMG\logo1.png" />
     <script src="JS/scroll_down.js"></script>
+    <script src="JS/mansory.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async>
+    </script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
     </style>
@@ -38,7 +43,8 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link zoom-in" href="photographie.html">PHOTOGRAPHIE</a>
-                    </li><li class="nav-item">
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link zoom-in " href="about.html">ABOUT</a>
                     </li>
                     <li class="nav-item">
@@ -201,11 +207,39 @@
                 </div>
             </div>
         </div>
-
-
+        <section class="pb-5">
+            <div class="container text-center">
+                <!-- Masonry grid -->
+                <div class="gallery-wrapper">
+                    <!-- Grid sizer -->
+                    <div class="grid-sizer col-lg-4 col-md-6"></div>
+    
+                    <!-- Grid item -->
+                    <div class="col-lg-4 col-md-6 grid-item mb-4">
+                        <img class="img-fluid w-100 mb-3 img-fluid rounded-0 p-3" src="IMG/portfolio/other/1.jpg" alt="">
+                        <h2 class="h4">Masonry grid item</h2>
+                        <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div><!-- Grid item -->
+                    <div class="col-lg-4 col-md-6 grid-item mb-4">
+                        <img class="img-fluid w-100 mb-3 img-fluid rounded-0 p-3" src="IMG/portfolio/other/6.jpg" alt="">
+                        <h2 class="h4">Masonry grid item</h2>
+                        <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div><!-- Grid item -->
+                    <div class="col-lg-4 col-md-6 grid-item mb-4">
+                        <img class="img-fluid w-100 mb-3 img-fluid rounded-0 p-3" src="IMG/portfolio/other/3.jpg" alt="">
+                        <h2 class="h4">Masonry grid item</h2>
+                        <p class="small text-muted font-italic">Lorem ipsum dolor sit amet, consectetur adipisicing
+                            elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
         <div class="row p-4"></div>
         <div class="row justify-content-center p-2">
-            <hr class="my-4"><div class="col-lg-2 col-md-6 col-sm-10  col-6 rounded-pill text-center">
+            <hr class="my-4">
+            <div class="col-lg-2 col-md-6 col-sm-10  col-6 rounded-pill text-center">
                 <a href="https://www.instagram.com/k.c_travels/"><span class="badge rounded-pill text-dark zoom-in"><i
                             class="fab fa-instagram  mx-2 mx-sm-2 mx-md-0 mx-lg-0 fa-2x"></i></span></a>
 
